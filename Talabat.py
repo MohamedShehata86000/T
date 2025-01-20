@@ -65,4 +65,5 @@ def t():
 while True:
     try:
         t()
+        os.system('cls' if os.name == 'nt' else 'clear')
     except:pass
