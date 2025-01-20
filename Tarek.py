@@ -57,6 +57,8 @@ def t():
          botA.send_message(chat_id=ch_id, text=code)
          botA.send_message(chat_id=ch_id, text="شغاال") 
     elif response == "":pass
+    elif "has banned you temporarily from accessing" in response:
+        print("Ban IP")
     else:
         print(response)
         botA.send_message(chat_id=ch_id, text=code)       
