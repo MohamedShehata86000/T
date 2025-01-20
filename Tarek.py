@@ -34,7 +34,7 @@ def t():
       #'x-device-version': "11.210",
      # 'x-device-source': "",
       #'x-perseusclientid': "1721863131857.493687602552868028.AdQcj2fDun",
-      'authorization': "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleW1ha2VyLXRhbGFiYXQtMDAyNi1hbmRyb2lkIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL3RhbGFiYXQuZGgtYXV0aC5pbyIsInN1YiI6IjQyODc3Mjc2IiwiYXVkIjoiYW5kcm9pZCIsImV4cCI6MTczNzM5NDc0NywiaWF0IjoxNzM3MzUxNTQ3LCJqdGkiOiJhbnI2cWZ1d3ZtZnZreWw1bWw1ZXhpYm53eXNhand1NG1pMWFzZ2U4Iiwic2NvcGUiOiIiLCJtZXRhZGF0YSI6eyJlbWFpbCI6Ind3dy5oYXNhbjY3QGdtYWlsLmNvbSJ9fQ.bYhKae3fxhdOK9kACnNUMVa6wAs37xH1mXRlbtq5G-WlPW-eJTjvQpqKuJHOKs-FpvNPtn6Rcj7GOryuQdehwmgjR2m0XRwbeE5owaY7q1Ew7tPN3CvTujbTp48U1YVHqrwtNXzug6sbP7Z47vq8DmmTXx1UcZTjlAG33_w_yQu2OGH_E5j7FtPTJXY_1Md8y-OMLb_5kp83GbFLsMk4HtCq_1QhqheorkV5ebYS-T0xi5NVGbMmGapIFofaY37o1Df5c5NCo-CF_ZeoYjoTmITbSA7v5MtF9rG5n-Lf1pctkRKkoSetbQrx9WA8hdsVXukCKj02Jpvb2aj2w6IKlw",
+      'authorization': "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleW1ha2VyLXRhbGFiYXQtMDAyNi1hbmRyb2lkIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL3RhbGFiYXQuZGgtYXV0aC5pbyIsInN1YiI6IjQyODc3Mjc2IiwiYXVkIjoiYW5kcm9pZCIsImV4cCI6MTczNzQzODE2OCwiaWF0IjoxNzM3Mzk0OTY4LCJqdGkiOiJwMW5heTJjODRra2s0dG52azNuM3hqaGxpNjQ3bXdxc3U2NGZlYW1jIiwic2NvcGUiOiIiLCJtZXRhZGF0YSI6eyJlbWFpbCI6Ind3dy5oYXNhbjY3QGdtYWlsLmNvbSJ9fQ.AQBXbQI9QAjlfMp3CIi3no-nuKQRUmNtkcjzLRkXdT5LGNbenPd_7vm59uQHZjq3LRLs_-QzpZyIoPZqrdesVN3-OXvDsb_QpSV9FAh8j0RQW3Rn70T0tlPiypiI9aXuAh6GQx0hHlU8tO0WzvHPwfg7Bl8gj56jNbHy87uI4zn-8n7mhDVEu7_YsNCK9ioblqgz04ME8C2SdcBZ_nu30YrRnqkPnih0QLmJT_V-_A9v2JmLj0dTbtxknjR3f7i1sqe4aST7hUNlNIFlKFzbQyt9Yc5o8r81Djr2mYKd-3KrcPzhLayKf9Q-JIpgp8JEP9ghvvEyNrAzTbJL0wQ1lA",
       'tokentypekey': "jwt",
       #'appbrand': "1",
       'accept-language': "ar-KW",
@@ -58,7 +58,7 @@ def t():
          botA.send_message(chat_id=ch_id, text="شغاال") 
     elif response == "":pass
     elif "has banned you temporarily from accessing" in response:
-        print("Ban IP")
+        print("IP Ban ")
     else:
         print(response)
         botA.send_message(chat_id=ch_id, text=code)       
