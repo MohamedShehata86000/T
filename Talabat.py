@@ -9,7 +9,7 @@ ch_id = "7037898496"
 botA = telebot.TeleBot(token=tok)
 def generate_random_code():
     # تثبيت الجزء "L7G"
-    fixed_part = "L7G"
+    fixed_part = "HS7"
     
     # توليد 5 أحرف وأرقام عشوائية
     random_part = ''.join(random.choices(string.ascii_uppercase + string.digits, k=7))
@@ -34,7 +34,7 @@ def t():
       #'x-device-version': "11.210",
      # 'x-device-source': "",
       #'x-perseusclientid': "1721863131857.493687602552868028.AdQcj2fDun",
-      'authorization': "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleW1ha2VyLXRhbGFiYXQtMDAyNi1hbmRyb2lkIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL3RhbGFiYXQuZGgtYXV0aC5pbyIsInN1YiI6IjQyODc0MTg3IiwiYXVkIjoiYW5kcm9pZCIsImV4cCI6MTczNzQzODAxNSwiaWF0IjoxNzM3Mzk0ODE1LCJqdGkiOiIwNDc4ODY4bG44aXAwcWp1aWwyazZqNTUxbjh6ZXZoOGJsM255Zm9rIiwic2NvcGUiOiIiLCJtZXRhZGF0YSI6eyJlbWFpbCI6InRhcmVra2FyaXptYTFAZ21haWwuY29tIn19.XVF6HRGnTEHLF4L5u3A_GY0rUwn0Io2MvFuuvgclM0Q-OqDnUmxowUqujmHqaY9KOkf-DSgxOKlEi0Re38-vJH564atHJy-yTZfJxWm4svFWQf4meDd2l03lthyNr-s634pm6N9iIcX-Y6U7CfEZOho41Vx64pxuPSPYkcQe17Lzo3yri3EpTncWh8TOJUSFg8dq7tPgISi_w0MYNr4EzA9iPznFCZNf1qv6pSwIUD6k6xolNljg22_dyVQAQSLKA_8QxJSpNETdXdfxzGQIPNFqL3IOHe3MFAAcwSXmxpImL05-5TpA9X_yda9sS-PSOHiJPsuHUCQGaHVdKsRc2A",
+      'authorization': "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleW1ha2VyLXRhbGFiYXQtMDAyNi1hbmRyb2lkIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL3RhbGFiYXQuZGgtYXV0aC5pbyIsInN1YiI6IjQyODc0MTg3IiwiYXVkIjoiYW5kcm9pZCIsImV4cCI6MTczODYyMTA2MiwiaWF0IjoxNzM4NTc3ODYyLCJqdGkiOiJwbjA5eGkzM2hibTVnYnU4bXlxY3FpanE0dzBxOGN4MDNmYWI1cW96Iiwic2NvcGUiOiIiLCJtZXRhZGF0YSI6eyJlbWFpbCI6InRhcmVra2FyaXptYTFAZ21haWwuY29tIn19.sP9nhfxLavsXTAtGHyOmU7pAIH_bBVs5lOuMhH01Y5FM9obrrprXrb9AEmIjj1o1qTHNsXHKVM1-5Xl_CTRwCpYktO2I9LoyP73A8Ur8at0ZxBQuzeEPiuhD1mwmZRM0tgOw6GYjcsqKBNkCHVZXqxU6DzG4H961lweNn8tHD4KEa0vPaqkb57JgUvxHZ3S-a-Y9l7n0G1WMXVBWOocDEhnkCD3vn3z4-wNxAi97Ew4PyLKtxis3TVA_tr-cdu44xZjSShfgvPBM8pxO3m6NlelzsMirQX2G_Q9UMKr8G5TpazRDOKP6VBOA77Upx6BsAkp-xynKVsQNz9O_CIh6wA",
       'tokentypekey': "jwt",
       #'appbrand': "1",
       'accept-language': "ar-KW",
