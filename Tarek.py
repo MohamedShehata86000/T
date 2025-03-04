@@ -9,7 +9,7 @@ ch_id = "7037898496"
 botA = telebot.TeleBot(token=tok)
 def generate_random_code():
     # تثبيت الجزء "L7G"
-    fixed_part = "P8K"
+    fixed_part = "YZD"
     
     # توليد 5 أحرف وأرقام عشوائية
     random_part = ''.join(random.choices(string.ascii_uppercase + string.digits, k=7))
@@ -34,7 +34,7 @@ def t():
       #'x-device-version': "11.210",
      # 'x-device-source': "",
       #'x-perseusclientid': "1721863131857.493687602552868028.AdQcj2fDun",
-      'authorization': "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleW1ha2VyLXRhbGFiYXQtMDAyNi1hbmRyb2lkIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL3RhbGFiYXQuZGgtYXV0aC5pbyIsInN1YiI6IjQyODc3Mjc2IiwiYXVkIjoiYW5kcm9pZCIsImV4cCI6MTczOTMwMTk2NiwiaWF0IjoxNzM5MjU4NzY2LCJqdGkiOiJpdmJ2cmZoZmhoYXd1MXM0Y2FrOW4wMGd6dzM0bjZlNnkzaXp3bGRzIiwic2NvcGUiOiIiLCJtZXRhZGF0YSI6eyJlbWFpbCI6Ind3dy5oYXNhbjY3QGdtYWlsLmNvbSJ9fQ.Mw2Hst_EHEKehdnFK9npDJWGGHo-XkN8otnVx6eQOvhfpiYk2yjvdPo8pznIKYXWRLOrH7-xzS2SYfuCoHYVq210QXS2CQhuEEBUerm--oFm6TfcvACj32OB7pWg9Oe6zeYgPVnG4uUPty9XHJ7pVvkXMBrh3NVDKgjwkWBZP6tamlyiQobUlUDWyqARxC44LmcmQoXX0j3joUOTdU1x1I6lIzpiODqP5JF3vSrptAd_iUj05Y045Aag0LQgfUdIachyz4Nrj82UilC7mZrFVNpNw2ZkXACz5-GbY3yjMnhHnhUmgaRbLEhkjzxQiNDzh_a59R1nXf1XCFmW7JK4uw",
+      'authorization': "bearer eyJhbGciOiJSUzI1NiIsImtpZCI6ImtleW1ha2VyLXRhbGFiYXQtMDAyNi1hbmRyb2lkIiwidHlwIjoiSldUIn0.eyJpc3MiOiJodHRwczovL3RhbGFiYXQuZGgtYXV0aC5pbyIsInN1YiI6IjQyODc3Mjc2IiwiYXVkIjoiYW5kcm9pZCIsImV4cCI6MTc0MTEyOTI2OSwiaWF0IjoxNzQxMDg2MDY5LCJqdGkiOiIyd2thN2VzNmN0MDJmcXpnNWxhNDE0M2kzcG5obWZzMmxwNDVuMW5rIiwic2NvcGUiOiIiLCJtZXRhZGF0YSI6eyJlbWFpbCI6Ind3dy5oYXNhbjY3QGdtYWlsLmNvbSJ9fQ.XmgBmDcHnb2hj0Hb5f8d0WXWH_D35MqIOfUCTo-XIHthsnQ6_JVvvCdqcRUujs-fPFFg3L-yQDn_JRM6XXONFCmDLj1nBeuFn3-_0eK_COiaJiecinKz0FwGXUqOYxxa39xRbiTOMO8JshIe76VphxJoZNS3WOrYpQb5IE363yVAmZFDCarO5Ya9I9SrRBacq7owUQ7AlGMiGynmoapkcrVtXdCDdDbn7GpE6RPUV17gsh6Zl9Gymd0kMPn_nCI7jctVH7Rlfzlu07-YxH1ZywpTf5mEsNFxxHil0JTseIxhG2zY3lx1waH_Zrsn8Rgz1Fzy1G_F_88FqAlAq6NyLw",
       'tokentypekey': "jwt",
       #'appbrand': "1",
       'accept-language': "ar-KW",
